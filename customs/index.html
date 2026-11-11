@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#087647">
+  <title>Certificate of Allocation | Nigeria Customs Service</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --green: #087647;
+      --silver: #d7dcde;
+      --ink: #252b31;
+      --muted: #5d6871;
+      --paper: #fff;
+      --page: #f0f2f2;
+      --line: var(--silver);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font: 16px/1.55 Arial, Helvetica, sans-serif;
+    }
+
+    .top-bar {
+      min-height: 12px;
+      background: var(--green);
+    }
+
+    .site-header {
+      background: var(--paper);
+      color: var(--green);
+      border-bottom: 3px solid var(--green);
+    }
+
+    .header-inner,
+    main,
+    .site-footer {
+      width: min(940px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      min-height: 0;
+      padding: 18px 0;
+      text-align: center;
+    }
+
+    .logo-slot {
+      display: block;
+      flex: 0 0 auto;
+      width: 180px;
+      height: auto;
+    }
+
+    .logo-slot img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .agency-subtitle {
+      margin: 0;
+      color: var(--green);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .agency-line {
+      margin: 3px 0 0;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .04em;
+    }
+
+    main {
+      padding: 28px 0 36px;
+    }
+
+    .certificate {
+      overflow: hidden;
+      border: 1px solid #cbd2d7;
+      background: var(--paper);
+      box-shadow: 0 2px 6px rgba(25, 45, 59, .08);
+    }
+
+    .certificate-heading {
+      padding: 25px 28px 20px;
+      border-bottom: 1px solid var(--line);
+      text-align: center;
+    }
+
+    .certificate-heading h1 {
+      margin: 0;
+      color: var(--green);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(24px, 4vw, 31px);
+      font-weight: 700;
+    }
+
+    .heading-rule {
+      width: 86px;
+      height: 3px;
+      margin: 13px auto 0;
+      background: var(--green);
+    }
+
+    .certificate-body {
+      padding: 26px 32px 32px;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin: 0 auto 23px;
+      text-align: center;
+    }
+
+    .intro p {
+      margin: 0 0 9px;
+    }
+
+    .recipient {
+      color: var(--green);
+      font-size: 19px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .registration {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .section-title {
+      margin: 22px 0 0;
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      background: #f3f5f6;
+      color: var(--green);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin: 0;
+      border: 1px solid var(--line);
+    }
+
+    .detail {
+      min-width: 0;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .detail:nth-child(odd) {
+      border-right: 1px solid var(--line);
+    }
+
+    .detail:last-child {
+      border-bottom: 0;
+    }
+
+    .detail dt {
+      margin-bottom: 3px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .detail dd {
+      margin: 0;
+      overflow-wrap: anywhere;
+      font-weight: 700;
+    }
+
+    .printed-date {
+      margin: 25px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .site-footer {
+      padding: 0 0 25px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .top-bar,
+      .site-footer {
+        display: none;
+      }
+
+      .header-inner,
+      main {
+        width: 100%;
+      }
+
+      .site-header {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+
+      .certificate {
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-slot">
+        <img src="assets/nigeria-customs-logo.png" alt="Nigeria Customs Service — Justice and Honesty">
+      </div>
+      <div>
+        <p class="agency-subtitle">HEADQUARTERS</p>
+        <p class="agency-line">e-AUCTION</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="certificate">
+      <div class="certificate-heading">
+        <h1>Certificate of Allocation</h1>
+        <div class="heading-rule" aria-hidden="true"></div>
+      </div>
+
+      <div class="certificate-body">
+        <div class="intro">
+          <p>This is to certify that</p>
+          <p class="recipient">LAMBERT ZOOM ASSOCIATES LIMITED</p>
+          <p class="registration">20997756-0001</p>
+          <p class="registration">NCS/01TC/OVT/01/2025/380721</p>
+          <p>has won the bid for the vehicle described below in the e-Auction conducted by the Nigeria Customs Service.</p>
+        </div>
+
+        <h2 class="section-title">Vehicle and auction details</h2>
+        <dl class="details">
+          <div class="detail">
+            <dt>Chassis / Identification Number</dt>
+            <dd>LZGCL2R4XFX208659</dd>
+          </div>
+          <div class="detail">
+            <dt>Vehicle</dt>
+            <dd>SHACMAN DELONG F3000</dd>
+          </div>
+          <div class="detail">
+            <dt>Year</dt>
+            <dd>2015</dd>
+          </div>
+          <div class="detail">
+            <dt>Location</dt>
+            <dd>APAPA PORT</dd>
+          </div>
+          <div class="detail">
+            <dt>Auction Date</dt>
+            <dd><time datetime="2025-01-30">30 January 2025</time></dd>
+          </div>
+          <div class="detail">
+            <dt>Winning Bid Amount</dt>
+            <dd>NGN 1,200,000.00</dd>
+          </div>
+          <div class="detail">
+            <dt>Value Added Tax (VAT)</dt>
+            <dd>7.5% of the winning bid amount</dd>
+          </div>
+        </dl>
+
+        <p class="printed-date">Printed on: [Set date before publishing]</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>Nigeria Customs Service</p>
+  </footer>
+</body>
+</html>
